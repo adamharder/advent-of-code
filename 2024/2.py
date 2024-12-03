@@ -6,7 +6,7 @@ from loguru import logger
 
 def read_input():
     # Read input
-    input=Path("input-2.txt").read_text()
+    input=Path("input/2.txt").read_text()
 
     # Split into lines
     input=input.split("\n")

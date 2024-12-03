@@ -6,7 +6,7 @@ from pathlib import Path
 
 def read_input():
     # Read input
-    input=Path("input-1.txt").read_text()
+    input=Path("input/1.txt").read_text()
 
     # Split into lines
     input=input.split("\n")
